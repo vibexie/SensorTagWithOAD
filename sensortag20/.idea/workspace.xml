@@ -64,8 +64,8 @@
       <file leaf-file-name="FwUpdateActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/FwUpdateActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="168" column="29" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="29" />
+            <state relative-caret-position="3060">
+              <caret line="169" column="21" selection-start-line="169" selection-start-column="21" selection-end-line="169" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#8050#8068#0" expanded="true" />
@@ -1606,6 +1606,7 @@
     <property name="device.picker.selection" value="85HQW8KRFYONWKUK" />
     <property name="FullScreen" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../r-guardian-android" />
   </component>
   <component name="RunManager" selected="Android App.BleSensorTag">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -1916,7 +1917,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2213,8 +2214,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/FwUpdateActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="168" column="29" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="29" />
+        <state relative-caret-position="3060">
+          <caret line="169" column="21" selection-start-line="169" selection-start-column="21" selection-end-line="169" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#8050#8068#0" expanded="true" />
