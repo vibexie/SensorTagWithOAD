@@ -627,7 +627,9 @@ import com.example.ti.util.PreferenceWR;
                                 if (SensorTagTestProfile.isCorrectService(s)) {
                                     mTestService = s;
                                 }
-                                if ((s.getUuid().toString().compareTo("f000ccc0-0451-4000-b000-000000000000")) == 0) {
+
+                                Log.e("vibe_test", s.getUuid().toString());
+                                if (s.getUuid().toString().equals("f000ffc0-0451-4000-b000-000000000000")) {
                                     mConnControlService = s;
                                 }
                             }

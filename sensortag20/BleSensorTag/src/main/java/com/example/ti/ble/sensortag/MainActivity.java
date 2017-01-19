@@ -57,6 +57,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import android.Manifest;
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -70,8 +72,10 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 // import android.util.Log;
@@ -139,6 +143,7 @@ public class MainActivity extends ViewPagerActivity {
 		requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
 		super.onCreate(savedInstanceState);
 
+		requestLocationPermissionIfNeeded();
 
 		// Check for Bluetooth support, if not exit application.
 		mBtAdapter = BluetoothAdapter.getDefaultAdapter();
@@ -619,5 +624,24 @@ public class MainActivity extends ViewPagerActivity {
 			});
 		}
 	};
+
+	@TargetApi(Build.VERSION_CODES.M)
+	private void requestLocationPermissionIfNeeded() {
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+			// Android M Permission check 
+			if (this.checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+				final AlertDialog.Builder builder = new AlertDialog.Builder(this);
+				builder.setTitle("This app needs location access");
+				builder.setMessage("Please grant location access so this app can scan for Bluetooth peripherals");
+				builder.setPositiveButton(android.R.string.ok, null);
+				builder.setOnDismissListener(new DialogInterface.OnDismissListener() {
+					public void onDismiss(DialogInterface dialog) {
+						requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 100);
+					}
+				});
+				builder.show();
+			}
+		}
+	}
 
 }

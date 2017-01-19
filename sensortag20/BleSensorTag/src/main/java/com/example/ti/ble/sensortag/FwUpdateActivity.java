@@ -166,7 +166,7 @@ public class FwUpdateActivity extends Activity {
     mCharListOad = mOadService.getCharacteristics();
     mCharListCc = mConnControlService.getCharacteristics();
 
-    mServiceOk = mCharListOad.size() == 2 && mCharListCc.size() >= 3;
+    mServiceOk = mCharListOad.size() == 2 && mCharListCc.size() == 2;
     if (mServiceOk) {
       mCharIdentify = mCharListOad.get(0);
       mCharBlock = mCharListOad.get(1);
@@ -339,8 +339,12 @@ public class FwUpdateActivity extends Activity {
     byte[] buf = new byte[OAD_IMG_HDR_SIZE + 2 + 2];
     buf[0] = Conversion.loUint16(mFileImgHdr.ver);
     buf[1] = Conversion.hiUint16(mFileImgHdr.ver);
-    buf[2] = Conversion.loUint16(mFileImgHdr.len);
-    buf[3] = Conversion.hiUint16(mFileImgHdr.len);
+//    buf[2] = Conversion.loUint16(mFileImgHdr.len);
+//    buf[3] = Conversion.hiUint16(mFileImgHdr.len);
+
+    buf[2] = loBit;
+    buf[3] = hiBit;
+
     System.arraycopy(mFileImgHdr.uid, 0, buf, 4, 4);
 
     // Send image notification
@@ -398,6 +402,8 @@ public class FwUpdateActivity extends Activity {
   	}
   }
 
+  private byte loBit;
+  private byte hiBit;
   private boolean loadFile(String filepath, boolean isAsset) {
     boolean fSuccess = false;
 
@@ -419,9 +425,15 @@ public class FwUpdateActivity extends Activity {
       return false;
     }
 
+    loBit = mFileBuffer[6];
+    hiBit = mFileBuffer[7];
+    Log.e("vibe_test", "得到的数字=" + bytes2Int(new byte[] {mFileBuffer[7], mFileBuffer[6]}));
+
     // Show image info
     mFileImgHdr.ver = Conversion.buildUint16(mFileBuffer[5], mFileBuffer[4]);
-    mFileImgHdr.len = Conversion.buildUint16(mFileBuffer[7], mFileBuffer[6]);
+//    mFileImgHdr.len = Conversion.buildUint16(mFileBuffer[7], mFileBuffer[6]);
+    mFileImgHdr.len = bytes2Int(new byte[] {mFileBuffer[7], mFileBuffer[6]});
+
     mFileImgHdr.imgType = ((mFileImgHdr.ver & 1) == 1) ? 'B' : 'A';
     System.arraycopy(mFileBuffer, 8, mFileImgHdr.uid, 0, 4);
     displayImageInfo(mFileImage, mFileImgHdr);
@@ -607,7 +619,7 @@ public class FwUpdateActivity extends Activity {
 
   private class ImgHdr {
     short ver;
-    short len;
+    int len;
     Character imgType;
     byte[] uid = new byte[4];
   }
@@ -626,4 +638,16 @@ public class FwUpdateActivity extends Activity {
     }
   }
 
+  public static int bytes2Int(byte[] b) {
+    String ret = "";
+    for (int i = 0; i < b.length; i++) {
+      String hex = Integer.toHexString(b[ i ] & 0xFF);
+      if (hex.length() == 1) {
+        hex = '0' + hex;
+      }
+      ret += hex.toUpperCase();
+    }
+
+    return Integer.parseInt(ret, 16);
+  }
 }

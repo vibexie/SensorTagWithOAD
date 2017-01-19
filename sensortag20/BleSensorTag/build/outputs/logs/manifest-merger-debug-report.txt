@@ -1,0 +1,175 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:2:1-83:12
+	package
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:3:5-43
+		INJECTED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml
+		INJECTED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml
+		INJECTED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:7:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:8:5-74
+	android:name
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:8:22-71
+uses-permission#android.permission.INTERNET
+ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:10:22-77
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:15:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:16:22-78
+uses-sdk
+ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:18:5-20:41
+MERGED from [com.android.support:support-v4:23.4.0] /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:20:9-38
+		INJECTED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml
+		INJECTED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:19:9-35
+		INJECTED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml
+		INJECTED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml
+uses-feature#android.hardware.bluetooth_le
+ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:22:5-24:35
+	android:required
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:24:9-32
+	android:name
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:23:9-53
+application
+ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:26:5-80:19
+MERGED from [com.android.support:support-v4:23.4.0] /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:29:9-41
+	android:allowBackup
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:27:9-36
+	android:icon
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:28:9-39
+	android:theme
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:30:9-56
+	android:name
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:31:9-78
+service#com.example.ti.ble.common.BluetoothLeService
+ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:32:9-34:38
+	android:enabled
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:34:13-35
+	android:name
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:33:13-72
+service#org.eclipse.paho.android.service.MqttService
+ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:35:9-36:38
+	android:enabled
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:36:13-35
+	android:name
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:35:18-77
+activity#com.example.ti.ble.sensortag.MainActivity
+ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:38:9-48:20
+	android:screenOrientation
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:41:13-52
+	android:label
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:40:13-45
+	android:configChanges
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:41:53-114
+	android:name
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:39:13-69
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.LAUNCHER
+ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:42:13-47:29
+action#android.intent.action.MAIN
+ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:43:17-69
+	android:name
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:43:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:45:17-76
+	android:name
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:45:27-73
+category#android.intent.category.LAUNCHER
+ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:46:17-77
+	android:name
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:46:27-74
+activity#com.example.ti.ble.sensortag.DeviceActivity
+ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:49:9-53:55
+	android:screenOrientation
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:53:13-52
+	android:parentActivityName
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:51:13-54
+	android:configChanges
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:52:13-74
+	android:name
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:50:13-71
+activity#com.example.ti.ble.sensortag.FwUpdateActivity
+ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:54:9-58:54
+	android:screenOrientation
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:58:13-52
+	android:parentActivityName
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:56:13-56
+	android:configChanges
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:57:13-74
+	android:name
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:55:13-73
+activity#com.example.ti.ble.sensortag.FwUpdateActivity_CC26xx
+ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:59:9-63:54
+	android:screenOrientation
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:63:13-52
+	android:parentActivityName
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:61:13-56
+	android:configChanges
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:62:13-74
+	android:name
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:60:13-80
+activity#com.example.ti.ble.sensortag.FileActivity
+ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:64:9-68:55
+	android:screenOrientation
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:68:13-52
+	android:parentActivityName
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:66:13-58
+	android:configChanges
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:67:13-74
+	android:name
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:65:13-69
+activity#com.example.ti.ble.sensortag.PreferencesActivity
+ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:69:9-74:42
+	android:screenOrientation
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:72:13-52
+	android:label
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:74:13-40
+	android:parentActivityName
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:71:13-56
+	android:configChanges
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:73:13-74
+	android:name
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:70:13-76
+activity#com.example.ti.ble.sensortag.fwSelectorView
+ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:75:9-78:54
+	android:screenOrientation
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:78:13-52
+	android:parentActivityName
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:76:13-65
+	android:configChanges
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:77:13-74
+	android:name
+		ADDED from /Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/src/main/AndroidManifest.xml:75:19-77

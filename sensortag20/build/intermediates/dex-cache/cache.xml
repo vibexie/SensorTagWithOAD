@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/libs/org.eclipse.paho.android.service-1.0.2.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="3b8420e57139cc627a55be0c17b6687e92d7460f">
+        <dex dex="/Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/build/intermediates/pre-dexed/debug/org.eclipse.paho.android.service-1.0.2-966259dc31355365cd949ac9ac83f4c8788d6179.jar" />
+    </item>
+    <item
+        jar="/Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/build/intermediates/pre-dexed/debug/classes-d46aa5fece7723e43d334c2185f4793586f74c5e.jar" />
+    </item>
+    <item
+        jar="/Users/vibexie/Dev/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/build/intermediates/pre-dexed/debug/support-annotations-23.4.0-5a5b71c17ebc0307b01a1132c21ff8e3da8c1d09.jar" />
+    </item>
+    <item
+        jar="/Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/build/intermediates/pre-dexed/debug/internal_impl-23.4.0-ee68159ff2a481426363ba55609f833ed182e053.jar" />
+    </item>
+    <item
+        jar="/Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/libs/org.eclipse.paho.client.mqttv3-1.0.2.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="02e433eb0fda11fe7170cf8214ba2f4d165c29b6">
+        <dex dex="/Users/vibexie/Dev/Android-dev/sensortag-20-android/sensortag20/BleSensorTag/build/intermediates/pre-dexed/debug/org.eclipse.paho.client.mqttv3-1.0.2-39f7218f97094519c348dd0e5a7592f4b4da0a7f.jar" />
+    </item>
+
+</items>
